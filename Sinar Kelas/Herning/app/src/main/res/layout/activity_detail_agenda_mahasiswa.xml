@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whiteBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/maroonSinar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Agenda"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/whiteColor"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_baseline_close_24"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/ivBackDetailAgendaMahasiswa"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/whiteColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDetailTanggalDibuatAgendaMahasiswa"
+                android:text="-"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textAlignment="textEnd"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulDetailNamaAgendaMahasiswa"
+                android:text="Nama Agenda"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDetailNamaAgendaMahasiswa"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulDetailDeskripsiAgendaMahasiswa"
+                android:text="Deskripsi Agenda"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDetailDeskripsiAgendaMahasiswa"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulDetailTanggalAgendaMahasiswa"
+                android:text="Tanggal Agenda"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDetailTanggalAgendaMahasiswa"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulDetailJamAgendaMahasiswa"
+                android:text="Jam Agenda"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDetailJamAgendaMahasiswa"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/round_button_border"
+        android:id="@+id/llHapusAgendaMahasiswa">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHapusAgendaMahasiswa"
+            android:text="Hapus Agenda"
+            android:textColor="@color/maroonSinar"
+            android:textSize="@dimen/_12ssp"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/_10sdp"/>
+    </LinearLayout>
+
+</LinearLayout>

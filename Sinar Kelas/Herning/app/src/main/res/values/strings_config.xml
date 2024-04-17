@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="private_app_id">b7c7d3bd97da403d9df5eaf12b97dba7</string>
+    <!-- Please leave it if not enable App Certificate -->
+    <!-- You can generate a temporary token at https://dashboard.agora.io/projects -->
+    <string name="agora_access_token">006952fe6adec5f46cdae8daced0f0f9eb4IAAEiB6Fer0H1Sq1esN4jmMGWu3+Qf/BwAO8SaZPdOHLvvcySUoAAAAAEADf1vrTQUrcXwEAAQBBStxf</string>
+
+</resources>

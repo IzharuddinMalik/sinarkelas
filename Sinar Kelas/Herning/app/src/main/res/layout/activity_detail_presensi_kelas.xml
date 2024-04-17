@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.kelas.DetailPresensiKelasActivity"
+    android:orientation="vertical"
+    android:background="@color/whiteBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/maroonSinar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Presensi Mahasiswa"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/whiteColor"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_baseline_close_24"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/ivBackDaftarPresensiMahasiswa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/llTotalHadir">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/greenColor">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Hadir"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/whiteColor"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJumlahMahasiswaHadirPresensi"
+                android:text="-"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/whiteColor"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/maroonSinar2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belum Hadir"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/whiteColor"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJumlahMahasiswaAbsenPresensi"
+                android:text="-"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/whiteColor"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/maroonSinar3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Izin"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/whiteColor"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJumlahMahasiswaIzinPresensi"
+                android:text="-"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/whiteColor"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/round_button_border"
+        android:id="@+id/llMahasiswaPresensiKelas">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMahasiswaPresensiKelas"
+            android:text="Presensi"
+            android:textColor="@color/maroonSinar"
+            android:textSize="@dimen/_12ssp"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/_10sdp"/>
+    </LinearLayout>
+
+    <com.mikelau.views.shimmer.ShimmerRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/svListPresensiDetailKelas">
+
+    </com.mikelau.views.shimmer.ShimmerRecyclerView>
+
+</LinearLayout>

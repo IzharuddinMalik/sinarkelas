@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/infoExpired">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@drawable/sadperson2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvJudulInfoExpiredAkun"
+            android:text="Maaf Sinar, masa aktif akun kamu telah berakhir\n Silahkan upgrade akun kamu agar dapat menggunakan fitur ini kembali."
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/framekelasdosen"
+        android:visibility="gone">
+
+        <com.mikelau.views.shimmer.ShimmerRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/svListKelasDosen"
+            android:layout_weight="1">
+
+        </com.mikelau.views.shimmer.ShimmerRecyclerView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:id="@+id/fbTambahKelasDosen"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_600sdp"
+            android:pointerIcon="arrow"
+            app:backgroundTint="@color/maroonSinar"
+            android:src="@drawable/ic_baseline_add_24"/>
+    </FrameLayout>
+
+</LinearLayout>

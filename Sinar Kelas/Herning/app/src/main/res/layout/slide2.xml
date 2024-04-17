@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/whiteColor">
+
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/logosinarkelas"
+        android:id="@+id/ivFotoIntro2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teksIntro2"
+        android:text="Apa Itu Sinar Kelas?"
+        android:textAlignment="center"
+        android:textColor="@color/blackTextSinar"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDeskripsiIntro2"
+        android:text="Aplikasi yang membantu \n mahasiswa dan dosen dalam \n kegiatan pembelajaran jarak jauh. \n Berbagai informasi, materi, tugas
+ \n dan penilaian menjadi lebih mudah."
+        android:textAlignment="center"
+        android:textColor="@color/blackTextSinar"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_20sdp"/>
+</LinearLayout>

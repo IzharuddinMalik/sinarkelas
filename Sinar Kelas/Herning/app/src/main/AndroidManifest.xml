@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sinarkelas">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.quickblox.sample.messages.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+
+    <application
+        android:name=".ui.videocallgroup.App"
+        android:allowBackup="true"
+        android:icon="@drawable/logo512pixelbaru"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo512pixelbaru"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.kelas.BuatKuisActivity"></activity>
+        <activity android:name=".ui.kelas.EditKelasActivity" />
+        <activity android:name=".ui.kelas.ShowPDFActivity" />
+        <activity android:name=".ui.notifikasi.DetailNotifikasiActivity" />
+        <activity android:name=".ui.notifikasi.NotifikasiActivity" />
+        <activity android:name=".ui.upgradeakun.SuksesKonfirmasiPembayaranActivity" />
+        <activity android:name=".ui.upgradeakun.VerifikasiKonfirmasiPembayaranActivity" />
+        <activity android:name=".ui.aktivasiakun.AktivasAkunMahasiswa" />
+        <activity android:name=".ui.aktivasiakun.AktivasiAkun" />
+        <activity android:name=".ui.dashboardhome.GetListAgendaMahasiswaActivity" />
+        <activity android:name=".ui.dashboardhome.DetailAgendaMahasiswaActivity" />
+        <activity android:name=".ui.dashboardhome.TambahAgendaMahasiswaActivity" />
+        <activity android:name=".ui.upgradeakun.UploadBuktiPembayaranActivity" />
+        <activity android:name=".ui.dashboardhome.DetailAgendaActivity" />
+        <activity android:name=".ui.dashboardhome.GetListAgendaActivity" />
+        <activity android:name=".ui.dashboardhome.TambahAgendaActivity" />
+        <activity android:name=".ui.upgradeakun.DetailHistoriTagihanActivity" />
+        <activity android:name=".ui.upgradeakun.HistoriTagihanActivity" />
+        <activity android:name=".ui.upgradeakun.MidtransUIPayment" />
+        <activity android:name=".ui.upgradeakun.BeliPaketAkunActivity" />
+        <activity android:name=".ui.upgradeakun.UpgradeAkunActivity" />
+        <activity android:name=".KritikdansaranActivity" />
+        <activity android:name=".ui.kelas.BuatTugasActivity" />
+        <activity android:name=".ui.kelas.DetailTugasKelasActivity" />
+        <activity android:name=".ui.kelas.MahasiswaPresensiKelasActivity" />
+        <activity android:name=".ui.kelas.MahasiswaJoinKelasActivity" />
+        <activity android:name=".ui.dashboardhome.DetailMateriUmumActivity" />
+        <activity android:name=".ui.dashboardhome.profile.EditProfileMahasiswa" />
+        <activity android:name=".ui.dashboardhome.profile.EditProfileDosen" />
+        <activity android:name=".ui.kelas.BuatPresensiKelasActivity" />
+        <activity android:name=".ui.kelas.DetailPresensiKelasActivity" />
+        <activity android:name=".ui.buatkelas.BuatKelasActivity" />
+        <activity android:name=".ui.kelas.DetailDiskusiKelasActivity" />
+        <activity android:name=".ui.kelas.BuatDiskusiKelasActivity" />
+        <activity android:name=".ui.kelas.DetailKelasActivity" />
+        <activity android:name=".ui.dashboardhome.DashboardHomeMahasiswa" />
+        <activity android:name=".ui.dashboardhome.DashboardHomeDosen" />
+        <activity android:name=".ui.login.LoginMahasiswaActivity" />
+        <activity android:name=".ui.login.LoginDosenActivity" />
+        <activity android:name=".ui.register.RegisterMahasiswaActivity" />
+        <activity android:name=".ui.register.PilihanRegister" />
+        <activity android:name=".ui.register.RegisterActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
+        <activity android:name=".ui.intro.IntroSlider" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.videocallgroup.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.videocallgroup.activities.SettingsActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.videocallgroup.activities.OpponentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.videocallgroup.activities.PermissionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.videocallgroup.activities.CallActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAppTheme" />
+        <activity
+            android:name=".ui.videocallgroup.activities.AppInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <service android:name=".fcm.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <service
+            android:name=".util.AlarmService"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="false" />
+
+        <receiver
+            android:name=".util.AlarmBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4b96a3f33893a42103eae91d2166d0c517b833d3" />
+
+        <service android:name=".ui.videocallgroup.services.LoginService" />
+        <service
+            android:name=".ui.videocallgroup.services.CallService"
+            android:foregroundServiceType="mediaProjection"
+            tools:targetApi="q" />
+        <service android:name=".ui.videocallgroup.services.fcm.PushListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.quickblox.messages.services.fcm.QBFcmPushInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.quickblox.messages.TYPE"
+            android:value="GCM" />
+        <meta-data
+            android:name="com.quickblox.messages.SENDER_ID"
+            android:value="@string/sender_id" />
+        <meta-data
+            android:name="com.quickblox.messages.QB_ENVIRONMENT"
+            android:value="DEVELOPMENT" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

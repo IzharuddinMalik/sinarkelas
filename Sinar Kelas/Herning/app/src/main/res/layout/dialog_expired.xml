@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/sadperson2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvJudulInfoExpiredAkunDialog"
+        android:text="Maaf Sinar, masa aktif akun kamu telah berakhir\n Silahkan upgrade akun kamu agar dapat menggunakan fitur ini kembali."
+        android:textColor="@color/blackText"
+        android:textSize="@dimen/_12ssp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"/>
+
+</LinearLayout>

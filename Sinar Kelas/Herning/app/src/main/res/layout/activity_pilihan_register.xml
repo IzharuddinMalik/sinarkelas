@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.PilihanRegister"
+    android:orientation="vertical"
+    android:background="@color/whiteColor"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="@dimen/_128sdp"
+        android:layout_height="@dimen/_128sdp"
+        android:src="@drawable/logosinarkelas"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/round_button_border"
+        android:id="@+id/llDaftarSebagaiDosenPilihanRegister">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDaftarSebagaiDosenPilihanRegister"
+            android:text="Daftar Sebagai Guru/Dosen"
+            android:textColor="@color/maroonSinar"
+            android:textSize="@dimen/_12ssp"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/_10sdp"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/maroonSinar"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:id="@+id/cvDaftarSebagaiMahasiswaPilihanRegister">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDaftarSebagaiMahasiswaPilihanRegister"
+                android:textColor="@color/whiteColor"
+                android:text="Daftar Sebagai Siswa/Mahasiswa"
+                android:textSize="@dimen/_12ssp"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

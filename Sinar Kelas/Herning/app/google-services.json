@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462949841472",
+    "project_id": "sinar-kelas",
+    "storage_bucket": "sinar-kelas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462949841472:android:ada67ddaf9bfa2f6547da5",
+        "android_client_info": {
+          "package_name": "com.sinarkelas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462949841472-ir46llcs28tceeu7fk639sjomitctnep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs2imRYiNpBvOBRxz9VG6cv7mUA3UhrRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462949841472-ir46llcs28tceeu7fk639sjomitctnep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

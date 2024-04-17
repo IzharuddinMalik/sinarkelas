@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_berandamhs"
+        android:icon="@drawable/home"
+        android:title="Beranda" />
+
+    <item
+        android:id="@+id/nav_kelasmhs"
+        android:icon="@drawable/kelas"
+        android:title="Kelas" />
+
+<!--    <item-->
+<!--        android:id="@+id/nav_informasimhs"-->
+<!--        android:icon="@drawable/percakapan"-->
+<!--        android:title="Pengumuman"/>-->
+
+    <item
+        android:id="@+id/nav_lainnyamhs"
+        android:icon="@drawable/lainnya"
+        android:title="Akun"/>
+
+</menu>

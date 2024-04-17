@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_diskusikelas"
+        android:icon="@drawable/icondiscuss"
+        android:title="Diskusi" />
+
+    <item
+        android:id="@+id/nav_presensi"
+        android:icon="@drawable/iconagenda"
+        android:title="Presensi"/>
+
+    <item
+        android:id="@+id/nav_tugas"
+        android:icon="@drawable/taskicon"
+        android:title="Tugas"/>
+
+    <item
+        android:id="@+id/nav_videocall"
+        android:icon="@drawable/videoicon"
+        android:title="Video Call"/>
+
+    <item
+        android:id="@+id/nav_anggotakelas"
+        android:icon="@drawable/anggotakelas"
+        android:title="Anggota"/>
+
+</menu>

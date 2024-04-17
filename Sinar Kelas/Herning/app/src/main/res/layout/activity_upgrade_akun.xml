@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.upgradeakun.UpgradeAkunActivity"
+    android:orientation="vertical"
+    android:background="@color/whiteBackground">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/whiteColor"
+        app:cardElevation="@dimen/_7sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:id="@+id/ivBackUpgradeAkun"
+                android:src="@drawable/arrowback"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulUpgradeAkun"
+                android:text="Upgrade Akun"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/blackText"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_70sdp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteBackground">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulPaketAkunHerning"
+                android:text="Paket Akun Herning"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textAlignment="center"/>
+
+            <com.mikelau.views.shimmer.ShimmerRecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/svListPaketAkun"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+            </com.mikelau.views.shimmer.ShimmerRecyclerView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

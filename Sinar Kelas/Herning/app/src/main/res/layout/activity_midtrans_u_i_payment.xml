@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.upgradeakun.MidtransUIPayment"
+    android:background="@color/whiteBackground"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/whiteColor"
+        app:cardElevation="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulKonfirmasiPembayaran"
+                android:text="Konfirmasi Pembayaran"
+                android:textColor="@color/blackText"
+                android:textSize="@dimen/_12ssp"
+                android:textAlignment="center"
+                android:layout_margin="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvJudulNoRekeningKonfirmasiPembayaran"
+        android:text="Harap Lakukan Pembayaran ke No Rekening"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNoRekeningKonfirmasiPembayaran"
+        android:text="-"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/blackText"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/whiteColor"
+        android:layout_margin="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulNomorTransaksiKonfirmasiPembayaran"
+                android:text="No Referensi"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNomorTransaksiKonfirmasiPembayaran"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulNamaDosenKonfirmasiPembayaran"
+                android:text="Nama Pemesan"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNamaDosenKonfirmasiPembayaran"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulNamaPaketKonfirmasiPembayaran"
+                android:text="Paket Akun Dibeli"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNamaPaketKonfirmasiPembayaran"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJudulMetodePembayaranKonfirmasiPembayaran"
+                android:text="Metode Pembayaran"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMetodePembayaranKonfirmasiPembayaran"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvJudulTotalKonfirmasiPembayaran"
+        android:text="Total Pembayaran"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/blackText"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTotalKonfirmasiPembayaran"
+        android:text="-"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@color/mainColor"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_30sdp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/maroonSinar"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:id="@+id/cvKonfirmasiPembayaran">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvKonfirmasiPembayaran"
+                android:textColor="@color/whiteColor"
+                android:text="Selesaikan"
+                android:textSize="@dimen/_12ssp"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
